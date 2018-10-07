@@ -3,10 +3,10 @@ library(caret)
 library(car)
 library(Matrix)
 
-x_train <- read.csv("train.csv")
+x_train <- read.csv("input/train.csv")
 y_train <- x_train['loss']
 x_train <- x_train[-grep('loss', colnames(x_train))]
-x_test <- read.csv("test.csv")
+x_test <- read.csv("input/test.csv")
 
 params <- {}
 params["objective"] <- "reg:linear"
