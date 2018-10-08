@@ -1,3 +1,10 @@
+#Sys.setenv(HTTPS_PROXY="http://<proxy>:<port>")
+#.libPaths("/usr/local/spark-2.3.1-bin-hadoop2.7/R/lib/")
+#install.packages("xgboost")
+#install.packages("caret")
+#install.packages("car")
+#install.packages("Matrix")
+
 library(xgboost)
 library(caret)
 library(car)
